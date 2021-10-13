@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Image Gallery</title>
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="./css/bootstrap.min.css">
+      <!-- JS -->
+      <script src="./js/all.js"></script>
+      <!--google fonts  -->
+      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+      <!-- main css -->
+      <link rel="stylesheet" href="./css/style.css">
+      <!-- Can link the stylesheet as seen above -->
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-sm nav-shadow navbar-dark">
+         <!-- Brand -->
+         <!-- <a class="navbar-brand" href="#"><img class="logo" src="img/griffinlogo300black-180x180.png" alt="Griffin">Griffin TechniCorp</a> -->
+         <!-- Links -->
+         <ul class="navbar-nav">
+            <li class="nav-item">
+               <a class="nav-link" href="https://www.linkedin.com/in/john-mazuch-982885109/">My LinkedIn</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="https://github.com/jmazuch001?tab=repositories">My Portfolio<a href="https://github.com/jmazuch001?tab=repositories"></a>
+            </li>
+            <!-- <li class="nav-item">
+               <a class="nav-link" href="https://github.com/jmazuch001?tab=repositories">My Dashboard<a href="https://github.com/jmazuch001?tab=repositories"></a>
+            </li> -->
+            <!-- Dropdown -->
+         </ul>
+         
+      </nav>
+      <!-- Span Start -->
+      <!-- <span class="span-image"><img src="img/marble-snip.png" alt="marble stone"></span> -->
+      <!-- Span End -->
+      
+      <header id="header" class="bg-dark bootstrap-header-img header-shadow py-3">
+         <div class="container">
+            <div class="row height align-items-center">
+               <div class="col">
+                  <h1 class="text-danger text-uppercase font-weight-bold font-italic h1-header-shadow">
+                     <strong class="strong-shadow company-title">John J. Mazuch</strong>
+                     <small class="text-light small-shadow">- Full Stack Web Developer</small>
+                  </h1>
+                  <p class="text-light lead py-3 w-75">
+                     This is an image gallery I have constructed and compiled based on a carousel concept, 
+                     featuring some of my favorite pictures. 
+                  </p>
+                  <a href="./Additional Content/John Mazuch - Web Developer.pdf" class="btn btn-outline-danger btn-lg m-2 text-capitalize">My Resume</a>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- End of Header -->
+      <!-- <section id="video" class="p-5">
+         <header class="filler-bg-img bg-white">
+            <video autoplay loop id="video-background" muted plays-inline>
+               <source src="../Project 2/vid/160820_121_NYC_OutOfFocusCarLights_1080p.mp4" type="video/mp4">
+            </video>
+         </header>
+      </section> -->
+      <!-- Skills Section -->
+      
+      <!-- Start Carousel Section -->
+      <section id="carousel-section" class="py-3 bg-secondary">
+            <header class="header-bg-image">
+               <div class="container carousel-bg-img">
+                  <!--section-title -->
+                  <div class="row">
+                     <div class="col text-center">
+                        <h1 class="display-4 text-uppercase text-white mb-0">
+                           <strong>first carousel</strong>
+                        </h1>
+                        <div class="title-underline bg-danger underline-shadow"></div>
+                        <p class="mt-2 text-capitalize text-white"></p>
+                     </div>
+                  </div>
+                  <!-- end of section-title -->
+                  <div class="row">
+                     <div class="col-md-8 mx-auto text-center">
+                        <div id="example" class="carousel slide card-shadow" data-ride='carousel'>
+                           <!-- indicators -->
+                           <ul class="carousel-indicators">
+                              <li data-target="#example" data-slide-to='0' class="active"></li>
+                              <li data-target="#example" data-slide-to='1'></li>
+                              <li data-target="#example" data-slide-to='2'></li>
+                              <li data-target="#example" data-slide-to='3'></li>
+                           </ul>
+                           <!-- images -->
+                           <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                 <img src="./My Custom Stuff/images/My Mustang 2.jpg" alt="project" class="d-block w-100">
+                              </div>
+                              <div class="carousel-item">
+                                 <img src="./My Custom Stuff/images/My Mustang 3.jpg" alt="project" class="d-block w-100">
+                              </div>
+                              <div class="carousel-item">
+                                 <img src="./My Custom Stuff/images/My Mustang 1.jpg" alt="project" class="d-block w-100">
+                              </div>
+                              <div class="carousel-item">
+                                 <img src="./My Custom Stuff/images/My Mustang 5.jpg" alt="project" class="d-block w-100">
+                              </div>
+                           </div>
+                           <!-- end of images -->
+                           <!-- controls -->
+                           <a href="#example" class="carousel-control-prev" data-slide="prev">
+                           <span class="carousel-control-prev-icon"></span>
+                           </a>
+                           <a href="#example" class="carousel-control-next" data-slide="next">
+                           <span class="carousel-control-next-icon"></span>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </header>
+         </section>
+         <!-- End of Carousel Section -->
+         <!-- footer section -->
+         <footer class="footer-section">
+            <!-- copyright -->
+            <div class = "footer-copyright bg-dark text-center py-3"><p>© 2019 Copyright:</p>
+               <p>John Joseph Mazuch</p>
+            </div> 
+         </footer>
+      <!-- End footer section -->
+      <!-- jquery -->
+      <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+      <!-- bootstrap js -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+   </body>
+</html>
+<!-- You can set an mx-auto class to tell an odd number image to center itself -->
+<!-- You can also use a no-gutters class to remove gutters that separate images -->
+<!-- video side project -->
+<!-- <header id="header" class="bg-dark bootstrap-header-img header-shadow py-5">
+   <div class="container">
+      <video autoplay loop muted poster="Screenshot.PNG" id="background-vid">
+         <source src="https://www.videvo.net/video/nyc-traffic-time-lapse-night/4179/" type="video/mp4">
+      <div class="row height align-items-center">
+         <div class="col">
+            <h1 class="text-danger text-uppercase font-weight-bold font-italic h1-header-shadow">
+               <strong class="strong-shadow">My First Bootstrap 4</strong>
+               <small class="text-light small-shadow">Website</small>
+            </h1>
+            <p class="text-muted lead py-2 w-75">Lorem ipsum dolor sit amet, consectetur 
+               adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+               dolore magna aliqua.
+            </p>
+            <a href="#" class="btn btn-outline-primary btn-lg m-2 text-capitalize">Press Here</a>
+            <a href="#" class="btn btn-outline-success btn-lg m-2 text-capitalize">Press Here</a>
+         </video>
+         </div>
+      </div>
+   </div>
+   </header> -->
